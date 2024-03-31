@@ -3,8 +3,6 @@ import Open from "../assets/images/icon-minus.svg";
 
 import { questionAnswers as QAData } from "../constants";
 
-import { useState } from "react";
-
 interface Props {
   question: string;
   answer: string;
